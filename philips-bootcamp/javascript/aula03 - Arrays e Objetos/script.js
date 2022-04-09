@@ -1,4 +1,4 @@
-/*let array = ['string', 1, true, 2, 'Primavera'];
+let array = ['string', 1, true, 2, 'Primavera'];
 console.log(array);
 
 let array2 = ['string', 1, true, ['array']];
@@ -33,7 +33,7 @@ console.log(array);
 
 //slice
 let novoArray = array.slice(0, 3);
-console.log(novoArray);*/
+console.log(novoArray);
 
 let object = {string: 'string', number: 1, boolean: true, array: ['array'], objectInterno: {objectInterno:'objeto interno'}};
 

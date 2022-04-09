@@ -1,6 +1,5 @@
-/* 
-var jogador1=3;
-var jogador2=5;
+var jogador1 = 3;
+var jogador2 = 5;
 var placar;
 
 if(jogador1 != -1 && jogador2 != -1) {
@@ -35,7 +34,7 @@ switch(placar) {
     default:
         console.log('Ninguem ganhou. ');
 }
-*/
+
 
 let array = ['valor1', 'valor2', 'valor3', 'valor4', 'valor5'];
 let object = {propriedade1: 'valor1', propriedade2: 'valor2', propriedade3: 'valor3'};

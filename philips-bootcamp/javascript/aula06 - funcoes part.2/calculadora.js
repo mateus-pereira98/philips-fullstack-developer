@@ -1,6 +1,8 @@
  // criando uma calculadora
-function calculadora() {
+
+ function calculadora() {
     // definindo as operações e pegando valor de entrada do usuário
+    
     const operacao = Number(prompt('Escolha uma opção:\n 1 - soma (+)\n 2 - subtração (-)\n 3 - multiplicação (*)\n 4 - divisão real (/)\n 5 - divisão inteira (%)\n 6 - potenciação (**)'));
     
     // verificando se a operação é válida
