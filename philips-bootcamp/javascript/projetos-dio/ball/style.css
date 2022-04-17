@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    background-color: #fafafa;
+}
+
+.bola {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: 0;
+    background: gold;
+    border-radius: 50%;
+    border: 1px solid black;
+    box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.5);
+    margin-left: 5px;
+}
+
+.obj {
+    height: 60px;
+    width: 10px;
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.background {
+    position: absolute;
+    bottom: 0;
+    background-image: url(imagens/background.png) ;
+    background-repeat: repeat-x;
+    animation: slideright 600s infinite linear;
+    width: 100%;
+    height: 200px;
+}
+
+.game-over {
+    font-family: Arial;
+    color: #808080;
+    text-align: center;
+    margin-top: 10px;
+}
+
+@keyframes slideright {
+    from {
+        background-position:  70000%;
+    }
+    to {
+        background-position: 0;
+    }
+}
+
