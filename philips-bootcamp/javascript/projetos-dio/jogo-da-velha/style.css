@@ -12,7 +12,7 @@ body {
     height: 100vh;
 }
 
-body h1 {
+body > h1 {
     line-height: 50vh;
     color: white;
     font-family: Arial;
@@ -28,7 +28,6 @@ p {
 
 .principal {
     height: 100vh;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
